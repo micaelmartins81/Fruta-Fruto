@@ -1,0 +1,12 @@
+.pessoas {
+    padding-top: 3rem;
+    
+}
+
+@media screen and (min-width: 768px){
+    .pessoas {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}

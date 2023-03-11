@@ -1,0 +1,26 @@
+.receita {
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    margin-right: 2rem;
+    border-radius: 1em;
+    max-width: 311px;
+}
+
+@media screen and (min-width: 768px) {
+    .receita{
+        margin-right: 5rem;
+        width: calc(50% - 5rem);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .receita{
+        width: calc(25% - 5rem);
+    }
+
+    .receita:nth-child(4) .receita__titulo{
+        font-size: 1.4rem;
+    }
+}
